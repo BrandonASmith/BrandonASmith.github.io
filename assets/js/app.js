@@ -34,7 +34,7 @@ function play(param) {
 }
 
 function checkMatch() {
-	if (obj1 === obj2 ) {
+	if ( obj1 === obj2 ) {
 		console.log("you have a match!")
 	} else {
 		console.log("try again")
@@ -44,6 +44,8 @@ function checkMatch() {
 }
 
 $('.cell').on('click', play)
+
+
 
 
 
